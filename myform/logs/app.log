@@ -1,0 +1,701 @@
+2025-10-17T15:38:55.035+09:00  INFO 13636 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 13636 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T15:38:55.036+09:00  INFO 13636 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T15:38:55.061+09:00  INFO 13636 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T15:38:55.061+09:00  INFO 13636 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T15:38:55.551+09:00  INFO 13636 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T15:38:55.562+09:00  INFO 13636 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T15:38:55.562+09:00  INFO 13636 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T15:38:55.588+09:00  INFO 13636 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T15:38:55.589+09:00  INFO 13636 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 525 ms
+2025-10-17T15:38:55.656+09:00  INFO 13636 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T15:38:55.805+09:00  INFO 13636 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T15:38:55.825+09:00  INFO 13636 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T15:38:55.829+09:00  INFO 13636 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.065 seconds (process running for 1.464)
+2025-10-17T15:39:02.780+09:00  INFO 13636 --- [myform] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T15:39:02.780+09:00  INFO 13636 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T15:39:02.781+09:00  INFO 13636 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T15:53:23.203+09:00  INFO 13636 --- [myform] [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T15:53:23.205+09:00  INFO 13636 --- [myform] [RMI TCP Connection(24)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T15:53:23.208+09:00  INFO 13636 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T15:53:24.499+09:00  INFO 17080 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 17080 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T15:53:24.500+09:00  INFO 17080 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T15:53:24.524+09:00  INFO 17080 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T15:53:24.524+09:00  INFO 17080 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T15:53:24.991+09:00  INFO 17080 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T15:53:24.999+09:00  INFO 17080 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T15:53:25.000+09:00  INFO 17080 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T15:53:25.024+09:00  INFO 17080 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T15:53:25.025+09:00  INFO 17080 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 500 ms
+2025-10-17T15:53:25.604+09:00  INFO 17080 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T15:53:25.625+09:00  INFO 17080 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T15:53:25.630+09:00  INFO 17080 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.395 seconds (process running for 1.821)
+2025-10-17T15:53:33.688+09:00  INFO 17080 --- [myform] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T15:53:33.688+09:00  INFO 17080 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T15:53:33.689+09:00  INFO 17080 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T15:57:16.296+09:00  INFO 17080 --- [myform] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T15:57:16.298+09:00  INFO 17080 --- [myform] [RMI TCP Connection(12)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T15:57:16.302+09:00  INFO 17080 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T15:57:17.391+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 5856 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T15:57:17.393+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T15:57:17.418+09:00  INFO 5856 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T15:57:17.418+09:00  INFO 5856 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T15:57:17.910+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T15:57:17.920+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T15:57:17.920+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T15:57:17.946+09:00  INFO 5856 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T15:57:17.946+09:00  INFO 5856 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 527 ms
+2025-10-17T15:57:18.536+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T15:57:18.557+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T15:57:18.562+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.437 seconds (process running for 1.847)
+2025-10-17T15:57:25.881+09:00  INFO 5856 --- [myform] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T15:57:25.881+09:00  INFO 5856 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T15:57:25.882+09:00  INFO 5856 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T16:03:28.543+09:00  INFO 5856 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-17T16:03:28.545+09:00  INFO 5856 --- [myform] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:03:28.549+09:00  INFO 5856 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:03:28.616+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 5856 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:03:28.617+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:03:28.728+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:03:28.729+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:03:28.729+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:03:28.738+09:00  INFO 5856 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:03:28.738+09:00  INFO 5856 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2025-10-17T16:03:28.785+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:03:28.790+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:03:28.792+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.195 seconds (process running for 372.076)
+2025-10-17T16:03:28.793+09:00  INFO 5856 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:03:44.956+09:00  INFO 5856 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T16:03:44.957+09:00  INFO 5856 --- [myform] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:03:44.959+09:00  INFO 5856 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:03:45.017+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 5856 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:03:45.018+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:03:45.108+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:03:45.110+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:03:45.110+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:03:45.117+09:00  INFO 5856 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:03:45.117+09:00  INFO 5856 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 98 ms
+2025-10-17T16:03:45.145+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:03:45.150+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:03:45.152+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.15 seconds (process running for 388.436)
+2025-10-17T16:03:45.152+09:00  INFO 5856 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:05:14.107+09:00  INFO 5856 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-17T16:05:14.108+09:00  INFO 5856 --- [myform] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:05:14.110+09:00  INFO 5856 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:05:14.166+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 5856 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:05:14.167+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:05:14.264+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:05:14.265+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:05:14.265+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:05:14.273+09:00  INFO 5856 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:05:14.273+09:00  INFO 5856 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2025-10-17T16:05:14.313+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:05:14.318+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:05:14.319+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.17 seconds (process running for 477.603)
+2025-10-17T16:05:14.320+09:00  INFO 5856 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:05:20.693+09:00  INFO 5856 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T16:05:20.694+09:00  INFO 5856 --- [myform] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:05:20.696+09:00  INFO 5856 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:05:20.753+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 5856 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:05:20.753+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:05:20.838+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:05:20.839+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:05:20.839+09:00  INFO 5856 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:05:20.847+09:00  INFO 5856 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:05:20.847+09:00  INFO 5856 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 93 ms
+2025-10-17T16:05:20.872+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:05:20.876+09:00  INFO 5856 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:05:20.878+09:00  INFO 5856 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.139 seconds (process running for 484.162)
+2025-10-17T16:05:20.879+09:00  INFO 5856 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:05:48.168+09:00  INFO 5856 --- [myform] [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T16:05:48.168+09:00  INFO 5856 --- [myform] [RMI TCP Connection(26)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:05:48.170+09:00  INFO 5856 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:05:49.636+09:00  INFO 7288 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 7288 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:05:49.637+09:00  INFO 7288 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:05:49.661+09:00  INFO 7288 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:05:49.662+09:00  INFO 7288 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:05:50.122+09:00  INFO 7288 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:05:50.132+09:00  INFO 7288 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:05:50.132+09:00  INFO 7288 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:05:50.156+09:00  INFO 7288 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:05:50.156+09:00  INFO 7288 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 494 ms
+2025-10-17T16:05:50.740+09:00  INFO 7288 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:05:50.760+09:00  INFO 7288 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:05:50.765+09:00  INFO 7288 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.388 seconds (process running for 1.809)
+2025-10-17T16:05:55.461+09:00  INFO 7288 --- [myform] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T16:05:55.461+09:00  INFO 7288 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T16:05:55.462+09:00  INFO 7288 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-17T16:12:40.484+09:00  INFO 7288 --- [myform] [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T16:12:40.486+09:00  INFO 7288 --- [myform] [RMI TCP Connection(16)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:12:40.489+09:00  INFO 7288 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:12:41.999+09:00  INFO 17340 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 17340 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:12:42.001+09:00  INFO 17340 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:12:42.025+09:00  INFO 17340 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:12:42.025+09:00  INFO 17340 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:12:42.486+09:00  INFO 17340 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:12:42.495+09:00  INFO 17340 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:12:42.496+09:00  INFO 17340 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:12:42.521+09:00  INFO 17340 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:12:42.521+09:00  INFO 17340 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 495 ms
+2025-10-17T16:12:43.095+09:00  INFO 17340 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:12:43.115+09:00  INFO 17340 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:12:43.124+09:00  INFO 17340 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.379 seconds (process running for 1.77)
+2025-10-17T16:12:47.462+09:00  INFO 17340 --- [myform] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T16:12:47.462+09:00  INFO 17340 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T16:12:47.463+09:00  INFO 17340 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T16:21:18.845+09:00  INFO 17340 --- [myform] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T16:21:18.847+09:00  INFO 17340 --- [myform] [RMI TCP Connection(18)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:21:18.850+09:00  INFO 17340 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:21:20.078+09:00  INFO 12044 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 12044 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:21:20.079+09:00  INFO 12044 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:21:20.104+09:00  INFO 12044 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:21:20.104+09:00  INFO 12044 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:21:20.565+09:00  INFO 12044 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:21:20.574+09:00  INFO 12044 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:21:20.574+09:00  INFO 12044 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:21:20.598+09:00  INFO 12044 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:21:20.598+09:00  INFO 12044 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 494 ms
+2025-10-17T16:21:21.174+09:00  INFO 12044 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:21:21.193+09:00  INFO 12044 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:21:21.198+09:00  INFO 12044 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.377 seconds (process running for 1.764)
+2025-10-17T16:21:26.661+09:00  INFO 12044 --- [myform] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T16:21:26.662+09:00  INFO 12044 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T16:21:26.662+09:00  INFO 12044 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-17T16:23:18.116+09:00  INFO 12044 --- [myform] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T16:23:18.117+09:00  INFO 12044 --- [myform] [RMI TCP Connection(11)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:23:18.121+09:00  INFO 12044 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:23:19.536+09:00  INFO 9140 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 9140 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:23:19.537+09:00  INFO 9140 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:23:19.562+09:00  INFO 9140 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:23:19.562+09:00  INFO 9140 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:23:20.025+09:00  INFO 9140 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:23:20.034+09:00  INFO 9140 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:23:20.034+09:00  INFO 9140 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:23:20.059+09:00  INFO 9140 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:23:20.059+09:00  INFO 9140 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 497 ms
+2025-10-17T16:23:20.641+09:00  INFO 9140 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:23:20.661+09:00  INFO 9140 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:23:20.666+09:00  INFO 9140 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.388 seconds (process running for 1.775)
+2025-10-17T16:23:25.785+09:00  INFO 9140 --- [myform] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T16:23:25.785+09:00  INFO 9140 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T16:23:25.786+09:00  INFO 9140 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-17T16:30:37.659+09:00  INFO 9140 --- [myform] [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T16:30:37.661+09:00  INFO 9140 --- [myform] [RMI TCP Connection(17)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:30:37.664+09:00  INFO 9140 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:30:38.896+09:00  INFO 14824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 14824 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:30:38.898+09:00  INFO 14824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:30:38.923+09:00  INFO 14824 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:30:38.923+09:00  INFO 14824 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:30:39.386+09:00  INFO 14824 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-10-17T16:30:39.395+09:00  INFO 14824 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:30:39.395+09:00  INFO 14824 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:30:39.420+09:00  INFO 14824 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:30:39.420+09:00  INFO 14824 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 497 ms
+2025-10-17T16:30:40.004+09:00  INFO 14824 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:30:40.023+09:00  INFO 14824 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-10-17T16:30:40.028+09:00  INFO 14824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.389 seconds (process running for 1.774)
+2025-10-17T16:30:46.300+09:00  INFO 14824 --- [myform] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T16:30:46.300+09:00  INFO 14824 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T16:30:46.301+09:00  INFO 14824 --- [myform] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T16:31:08.773+09:00  INFO 14824 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T16:31:08.775+09:00  INFO 14824 --- [myform] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:31:08.778+09:00  INFO 14824 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:31:08.856+09:00  INFO 14824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 14824 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:31:08.856+09:00  INFO 14824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:31:08.960+09:00  INFO 14824 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:31:08.960+09:00  INFO 14824 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:31:08.961+09:00  INFO 14824 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:31:08.970+09:00  INFO 14824 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:31:08.970+09:00  INFO 14824 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 112 ms
+2025-10-17T16:31:09.003+09:00  INFO 14824 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:31:09.008+09:00  INFO 14824 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T16:31:09.010+09:00  INFO 14824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.182 seconds (process running for 30.757)
+2025-10-17T16:31:09.012+09:00  INFO 14824 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:31:09.516+09:00  INFO 14824 --- [myform] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T16:31:09.516+09:00  INFO 14824 --- [myform] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:31:09.518+09:00  INFO 14824 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:31:10.750+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 11136 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:31:10.751+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:31:10.775+09:00  INFO 11136 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:31:10.775+09:00  INFO 11136 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:31:11.236+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:31:11.245+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:31:11.245+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:31:11.269+09:00  INFO 11136 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:31:11.269+09:00  INFO 11136 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 493 ms
+2025-10-17T16:31:11.847+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:31:11.868+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T16:31:11.873+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.379 seconds (process running for 1.768)
+2025-10-17T16:31:14.673+09:00  INFO 11136 --- [myform] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T16:31:14.673+09:00  INFO 11136 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T16:31:14.674+09:00  INFO 11136 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T16:36:56.047+09:00  INFO 11136 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T16:36:56.049+09:00  INFO 11136 --- [myform] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:36:56.053+09:00  INFO 11136 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:36:56.132+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 11136 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:36:56.132+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:36:56.298+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:36:56.299+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:36:56.299+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:36:56.310+09:00  INFO 11136 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:36:56.310+09:00  INFO 11136 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 176 ms
+2025-10-17T16:36:56.361+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:36:56.368+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T16:36:56.371+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.26 seconds (process running for 346.266)
+2025-10-17T16:36:56.372+09:00  INFO 11136 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:37:11.157+09:00  INFO 11136 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T16:37:11.158+09:00  INFO 11136 --- [myform] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:37:11.160+09:00  INFO 11136 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:37:11.220+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 11136 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:37:11.220+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:37:11.331+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:37:11.331+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:37:11.332+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:37:11.340+09:00  INFO 11136 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:37:11.341+09:00  INFO 11136 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2025-10-17T16:37:11.372+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:37:11.377+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T16:37:11.379+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.174 seconds (process running for 361.273)
+2025-10-17T16:37:11.379+09:00  INFO 11136 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:38:03.294+09:00  INFO 11136 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (2 additions, 2 deletions, 2 modifications)
+2025-10-17T16:38:03.295+09:00  INFO 11136 --- [myform] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:38:03.297+09:00  INFO 11136 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:38:03.354+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 11136 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:38:03.355+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:38:03.457+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:38:03.458+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:38:03.459+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:38:03.467+09:00  INFO 11136 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:38:03.467+09:00  INFO 11136 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2025-10-17T16:38:03.507+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:38:03.512+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T16:38:03.513+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.176 seconds (process running for 413.408)
+2025-10-17T16:38:03.514+09:00  INFO 11136 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:38:57.108+09:00  INFO 11136 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-17T16:38:57.109+09:00  INFO 11136 --- [myform] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:38:57.111+09:00  INFO 11136 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:38:57.169+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 11136 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:38:57.169+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:38:57.277+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:38:57.278+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:38:57.278+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:38:57.286+09:00  INFO 11136 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:38:57.286+09:00  INFO 11136 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2025-10-17T16:38:57.299+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T16:38:57.325+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:38:57.330+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T16:38:57.332+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.18 seconds (process running for 467.226)
+2025-10-17T16:38:57.332+09:00  INFO 11136 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:39:05.116+09:00  INFO 11136 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T16:39:05.117+09:00  INFO 11136 --- [myform] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:39:05.119+09:00  INFO 11136 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:39:05.176+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 11136 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:39:05.177+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:39:05.274+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:39:05.275+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:39:05.275+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:39:05.283+09:00  INFO 11136 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:39:05.283+09:00  INFO 11136 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2025-10-17T16:39:05.291+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T16:39:05.295+09:00  WARN 11136 --- [myform] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invalid mapping on handler class [com.example.yproject.controller.SpaForwardController]: public java.lang.String com.example.yproject.controller.SpaForwardController.forward()
+2025-10-17T16:39:05.296+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T16:39:05.299+09:00  INFO 11136 --- [myform] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T16:39:05.310+09:00 ERROR 11136 --- [myform] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected:
+/**/{p:[^\.]*}
+^
+No more pattern data allowed after {*...} or ** pattern element
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2025-10-17T16:39:22.945+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 11136 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:39:22.945+09:00  INFO 11136 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:39:23.039+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:39:23.040+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:39:23.040+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:39:23.047+09:00  INFO 11136 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:39:23.047+09:00  INFO 11136 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2025-10-17T16:39:23.055+09:00  INFO 11136 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T16:39:23.057+09:00  WARN 11136 --- [myform] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invalid mapping on handler class [com.example.yproject.controller.SpaForwardController]: public java.lang.String com.example.yproject.controller.SpaForwardController.forward()
+2025-10-17T16:39:23.057+09:00  INFO 11136 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T16:39:23.059+09:00  INFO 11136 --- [myform] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T16:39:23.061+09:00 ERROR 11136 --- [myform] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected:
+/**/{p:[^\.]*}
+^
+No more pattern data allowed after {*...} or ** pattern element
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2025-10-17T16:39:55.195+09:00  INFO 2860 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 2860 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:39:55.197+09:00  INFO 2860 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:39:55.221+09:00  INFO 2860 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:39:55.222+09:00  INFO 2860 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:39:55.721+09:00  INFO 2860 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:39:55.730+09:00  INFO 2860 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:39:55.731+09:00  INFO 2860 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:39:55.755+09:00  INFO 2860 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:39:55.755+09:00  INFO 2860 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 533 ms
+2025-10-17T16:39:55.815+09:00  INFO 2860 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T16:39:55.847+09:00  WARN 2860 --- [myform] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invalid mapping on handler class [com.example.yproject.controller.SpaForwardController]: public java.lang.String com.example.yproject.controller.SpaForwardController.forward()
+2025-10-17T16:39:55.849+09:00  INFO 2860 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T16:39:55.857+09:00  INFO 2860 --- [myform] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T16:39:55.871+09:00 ERROR 2860 --- [myform] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected:
+/**/{p:[^\.]*}
+^
+No more pattern data allowed after {*...} or ** pattern element
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2025-10-17T16:42:11.864+09:00  INFO 12044 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 12044 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:42:11.865+09:00  INFO 12044 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:42:11.890+09:00  INFO 12044 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:42:11.890+09:00  INFO 12044 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:42:12.413+09:00  INFO 12044 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:42:12.422+09:00  INFO 12044 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:42:12.422+09:00  INFO 12044 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:42:12.448+09:00  INFO 12044 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:42:12.449+09:00  INFO 12044 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 558 ms
+2025-10-17T16:42:12.509+09:00  INFO 12044 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T16:42:13.030+09:00  INFO 12044 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:42:13.050+09:00  INFO 12044 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T16:42:13.055+09:00  INFO 12044 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.452 seconds (process running for 1.837)
+2025-10-17T16:42:18.268+09:00  INFO 12044 --- [myform] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T16:42:18.268+09:00  INFO 12044 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T16:42:18.269+09:00  INFO 12044 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T16:42:18.303+09:00  WARN 12044 --- [myform] [http-nio-8080-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND]
+2025-10-17T16:43:26.504+09:00  WARN 12044 --- [myform] [http-nio-8080-exec-4] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND]
+2025-10-17T16:44:50.349+09:00  INFO 12044 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T16:44:50.351+09:00  INFO 12044 --- [myform] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:44:50.354+09:00  INFO 12044 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:44:50.422+09:00  INFO 12044 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 12044 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:44:50.423+09:00  INFO 12044 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:44:50.547+09:00  INFO 12044 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:44:50.549+09:00  INFO 12044 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:44:50.549+09:00  INFO 12044 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:44:51.298+09:00  INFO 840 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 840 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:44:51.300+09:00  INFO 840 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:44:51.325+09:00  INFO 840 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:44:51.325+09:00  INFO 840 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:44:51.824+09:00  INFO 840 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:44:51.833+09:00  INFO 840 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:44:51.833+09:00  INFO 840 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:44:51.857+09:00  INFO 840 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:44:51.858+09:00  INFO 840 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 533 ms
+2025-10-17T16:44:51.917+09:00  INFO 840 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T16:44:51.948+09:00  WARN 840 --- [myform] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invalid mapping on handler class [com.example.yproject.controller.SpaForwardController]: public java.lang.String com.example.yproject.controller.SpaForwardController.forward()
+2025-10-17T16:44:51.950+09:00  INFO 840 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T16:44:51.958+09:00  INFO 840 --- [myform] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T16:44:51.970+09:00 ERROR 840 --- [myform] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected:
+/**/{path:[^\.]*}
+^
+No more pattern data allowed after {*...} or ** pattern element
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2025-10-17T16:45:06.889+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 9960 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T16:45:06.890+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:45:06.915+09:00  INFO 9960 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T16:45:06.916+09:00  INFO 9960 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T16:45:07.412+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T16:45:07.421+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:45:07.421+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T16:45:07.445+09:00  INFO 9960 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:45:07.445+09:00  INFO 9960 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 529 ms
+2025-10-17T16:45:07.504+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T16:45:08.021+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:45:08.041+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T16:45:08.046+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.412 seconds (process running for 1.792)
+2025-10-17T16:45:13.657+09:00  INFO 9960 --- [myform] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T16:45:13.657+09:00  INFO 9960 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T16:45:13.658+09:00  INFO 9960 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T17:18:33.706+09:00  INFO 9960 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-17T17:18:33.709+09:00  INFO 9960 --- [myform] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:18:33.712+09:00  INFO 9960 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:18:33.780+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 9960 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:18:33.780+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:18:33.904+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:18:33.905+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:18:33.906+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:18:33.914+09:00  INFO 9960 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:18:33.915+09:00  INFO 9960 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2025-10-17T17:18:33.930+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T17:18:33.962+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:18:33.967+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T17:18:33.969+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.209 seconds (process running for 2007.716)
+2025-10-17T17:18:33.970+09:00  INFO 9960 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T17:18:44.539+09:00  INFO 9960 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-17T17:18:44.540+09:00  INFO 9960 --- [myform] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:18:44.542+09:00  INFO 9960 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:18:44.608+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 9960 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:18:44.609+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:18:44.717+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:18:44.718+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:18:44.718+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:18:44.726+09:00  INFO 9960 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:18:44.726+09:00  INFO 9960 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2025-10-17T17:18:44.736+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T17:18:44.755+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:18:44.760+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T17:18:44.762+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.17 seconds (process running for 2018.508)
+2025-10-17T17:18:44.763+09:00  INFO 9960 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T17:19:05.065+09:00  INFO 9960 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T17:19:05.066+09:00  INFO 9960 --- [myform] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:19:05.068+09:00  INFO 9960 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:19:05.128+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 9960 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:19:05.128+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:19:05.228+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:19:05.229+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:19:05.229+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:19:05.237+09:00  INFO 9960 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:19:05.237+09:00  INFO 9960 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2025-10-17T17:19:05.246+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T17:19:05.263+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:19:05.268+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T17:19:05.269+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.157 seconds (process running for 2039.016)
+2025-10-17T17:19:05.270+09:00  INFO 9960 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T17:19:28.421+09:00  INFO 9960 --- [myform] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (1 addition, 1 deletion, 1 modification)
+2025-10-17T17:19:28.422+09:00  INFO 9960 --- [myform] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:19:28.424+09:00  INFO 9960 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:19:28.480+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 9960 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:19:28.481+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:19:28.581+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:19:28.582+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:19:28.582+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:19:28.591+09:00  INFO 9960 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:19:28.592+09:00  INFO 9960 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 110 ms
+2025-10-17T17:19:28.598+09:00  WARN 9960 --- [myform] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authController' defined in file [C:\s09_springboot\mySite\myform\bin\main\com\example\yproject\dto\AuthController.class]: Failed to instantiate [com.example.yproject.dto.AuthController]: Constructor threw exception
+2025-10-17T17:19:28.598+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:19:28.601+09:00  INFO 9960 --- [myform] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:19:28.612+09:00 ERROR 9960 --- [myform] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authController' defined in file [C:\s09_springboot\mySite\myform\bin\main\com\example\yproject\dto\AuthController.class]: Failed to instantiate [com.example.yproject.dto.AuthController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.MyformApplication.main(MyformApplication.java:14) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.yproject.dto.AuthController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:123) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351) ~[spring-beans-6.2.11.jar:6.2.11]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The declared package "com.example.yproject.controller" does not match the expected package "com.example.yproject.dto"
+
+	at com.example.yproject.dto.AuthController.<init>(AuthController.java:1) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.2.11.jar:6.2.11]
+	... 24 common frames omitted
+
+2025-10-17T17:19:43.397+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 9960 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:19:43.397+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:19:43.494+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:19:43.495+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:19:43.495+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:19:43.502+09:00  INFO 9960 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:19:43.503+09:00  INFO 9960 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2025-10-17T17:19:43.507+09:00  WARN 9960 --- [myform] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authController' defined in file [C:\s09_springboot\mySite\myform\bin\main\com\example\yproject\dto\AuthController.class]: Failed to instantiate [com.example.yproject.dto.AuthController]: Constructor threw exception
+2025-10-17T17:19:43.507+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:19:43.509+09:00  INFO 9960 --- [myform] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:19:43.511+09:00 ERROR 9960 --- [myform] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authController' defined in file [C:\s09_springboot\mySite\myform\bin\main\com\example\yproject\dto\AuthController.class]: Failed to instantiate [com.example.yproject.dto.AuthController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
+	at com.example.demo.MyformApplication.main(MyformApplication.java:14) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.6.jar:3.5.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.yproject.dto.AuthController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:123) ~[spring-beans-6.2.11.jar:6.2.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351) ~[spring-beans-6.2.11.jar:6.2.11]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The declared package "com.example.yproject.controller" does not match the expected package "com.example.yproject.dto"
+
+	at com.example.yproject.dto.AuthController.<init>(AuthController.java:1) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.2.11.jar:6.2.11]
+	... 24 common frames omitted
+
+2025-10-17T17:19:50.009+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 9960 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:19:50.009+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:19:50.107+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:19:50.108+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:19:50.108+09:00  INFO 9960 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:19:50.115+09:00  INFO 9960 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:19:50.116+09:00  INFO 9960 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 106 ms
+2025-10-17T17:19:50.124+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T17:19:50.140+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:19:50.144+09:00  INFO 9960 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T17:19:50.146+09:00  INFO 9960 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 0.151 seconds (process running for 2083.892)
+2025-10-17T17:19:50.147+09:00  INFO 9960 --- [myform] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T17:19:52.201+09:00  INFO 9960 --- [myform] [RMI TCP Connection(52)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T17:19:52.202+09:00  INFO 9960 --- [myform] [RMI TCP Connection(52)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:19:52.204+09:00  INFO 9960 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:19:53.813+09:00  INFO 11684 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 11684 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:19:53.814+09:00  INFO 11684 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:19:53.838+09:00  INFO 11684 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:19:53.838+09:00  INFO 11684 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:19:54.343+09:00  INFO 11684 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:19:54.352+09:00  INFO 11684 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:19:54.352+09:00  INFO 11684 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:19:54.376+09:00  INFO 11684 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:19:54.376+09:00  INFO 11684 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 537 ms
+2025-10-17T17:19:54.437+09:00  INFO 11684 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T17:19:54.953+09:00  INFO 11684 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:19:54.973+09:00  INFO 11684 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T17:19:54.978+09:00  INFO 11684 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.423 seconds (process running for 1.811)
+2025-10-17T17:20:34.904+09:00  INFO 11684 --- [myform] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T17:20:34.904+09:00  INFO 11684 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T17:20:34.905+09:00  INFO 11684 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T17:25:18.813+09:00  INFO 11684 --- [myform] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T17:25:18.814+09:00  INFO 11684 --- [myform] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:25:18.818+09:00  INFO 11684 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:25:20.047+09:00  INFO 876 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 876 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:25:20.048+09:00  INFO 876 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:25:20.073+09:00  INFO 876 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:25:20.073+09:00  INFO 876 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:25:20.572+09:00  INFO 876 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:25:20.581+09:00  INFO 876 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:25:20.581+09:00  INFO 876 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:25:20.604+09:00  INFO 876 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:25:20.605+09:00  INFO 876 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 532 ms
+2025-10-17T17:25:20.664+09:00  INFO 876 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T17:25:21.190+09:00  INFO 876 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:25:21.210+09:00  INFO 876 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T17:25:21.215+09:00  INFO 876 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.423 seconds (process running for 1.808)
+2025-10-17T17:25:29.462+09:00  INFO 876 --- [myform] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T17:25:29.462+09:00  INFO 876 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T17:25:29.463+09:00  INFO 876 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T17:31:04.545+09:00  INFO 876 --- [myform] [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T17:31:04.547+09:00  INFO 876 --- [myform] [RMI TCP Connection(15)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:31:04.551+09:00  INFO 876 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:31:05.606+09:00  INFO 4824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 4824 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:31:05.608+09:00  INFO 4824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:31:05.631+09:00  INFO 4824 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:31:05.632+09:00  INFO 4824 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:31:06.130+09:00  INFO 4824 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:31:06.139+09:00  INFO 4824 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:31:06.139+09:00  INFO 4824 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:31:06.163+09:00  INFO 4824 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:31:06.163+09:00  INFO 4824 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 531 ms
+2025-10-17T17:31:06.222+09:00  INFO 4824 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T17:31:06.747+09:00  INFO 4824 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:31:06.767+09:00  INFO 4824 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T17:31:06.772+09:00  INFO 4824 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.424 seconds (process running for 1.813)
+2025-10-17T17:31:10.776+09:00  INFO 4824 --- [myform] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T17:31:10.776+09:00  INFO 4824 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T17:31:10.776+09:00  INFO 4824 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-17T17:31:57.942+09:00  INFO 4824 --- [myform] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T17:31:57.944+09:00  INFO 4824 --- [myform] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:31:57.948+09:00  INFO 4824 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:31:59.287+09:00  INFO 5008 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Starting MyformApplication using Java 21.0.8 with PID 5008 (C:\s09_springboot\mySite\myform\bin\main started by YONSAI in C:\s09_springboot\mySite\myform)
+2025-10-17T17:31:59.289+09:00  INFO 5008 --- [myform] [restartedMain] com.example.demo.MyformApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:31:59.313+09:00  INFO 5008 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:31:59.314+09:00  INFO 5008 --- [myform] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:31:59.810+09:00  INFO 5008 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-17T17:31:59.819+09:00  INFO 5008 --- [myform] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:31:59.820+09:00  INFO 5008 --- [myform] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-17T17:31:59.843+09:00  INFO 5008 --- [myform] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:31:59.844+09:00  INFO 5008 --- [myform] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 529 ms
+2025-10-17T17:31:59.903+09:00  INFO 5008 --- [myform] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-17T17:32:00.428+09:00  INFO 5008 --- [myform] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:32:00.447+09:00  INFO 5008 --- [myform] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-17T17:32:00.452+09:00  INFO 5008 --- [myform] [restartedMain] com.example.demo.MyformApplication       : Started MyformApplication in 1.422 seconds (process running for 1.814)
+2025-10-17T17:32:09.937+09:00  INFO 5008 --- [myform] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-17T17:32:09.938+09:00  INFO 5008 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-17T17:32:09.938+09:00  INFO 5008 --- [myform] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-17T17:32:27.728+09:00  INFO 5008 --- [myform] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-17T17:32:27.729+09:00  INFO 5008 --- [myform] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:32:27.734+09:00  INFO 5008 --- [myform] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
