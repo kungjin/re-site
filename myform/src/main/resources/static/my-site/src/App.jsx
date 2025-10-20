@@ -51,7 +51,6 @@ function Home() {
             <a href="#services">서비스</a>
             <a href="#about">소개</a>
             <a href="#contact">문의</a>
-            {/* 로그인 페이지로 이동 */}
             <Link to="/login">로그인</Link>
           </nav>
 
@@ -91,6 +90,7 @@ function Home() {
           <li><a href="#services">서비스</a></li>
           <li><a href="#about">소개</a></li>
           <li><a href="#contact">문의</a></li>
+          <Link to="/login">로그인</Link>
           <li style={{ padding: "12px 6px" }}>
             <a className="btn primary" href="#contact" style={{ width: "100%", textAlign: "center" }}>
               프로젝트 문의
